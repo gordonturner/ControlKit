@@ -258,3 +258,43 @@ sudo vi /etc/rc_maps.cfg
 ```
 
 Finally, add the appropriate keybindings, either through openbox or triggerhappy.
+
+## Shutdown Script
+
+- Create a folder to store the scripts in `/opt/scripts` and edit `remote-poweroff.sh` script:
+
+```
+sudo mkdir /opt/scripts
+sudo vi /opt/scripts/remote-poweroff.sh
+```
+
+```
+#!/bin/bash
+sudo /sbin/shutdown now
+```
+
+- Change ownership and make executable:
+
+```
+sudo chown pi.pi /opt/scripts/remote-poweroff.sh
+sudo chmod u+x /opt/scripts/remote-poweroff.sh
+sudo chmod +x /opt/scripts/remote-poweroff.sh
+```
+
+- Add `nobody` to list allowed to restart:
+
+```
+sudo visudo
+```
+
+```
+# ADDED
+nobody ALL =NOPASSWD: /sbin/shutdown*
+```
+
+- Test script:
+
+```
+/opt/scripts/remote-poweroff.sh
+```
+
