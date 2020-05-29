@@ -7,11 +7,9 @@ Setup a Raspberry Pi GPIO, using ir-ctl and ir-table with no LIRC involved.
 
 2020-04-14-ir-test1.md  
 
-https://www.sigmdel.ca/michel/ha/opi/ir_03_en.html  
 https://www.mess.org/2019/03/04/How-to-add-support-for-a-new-remote-control/  
-http://atterer.org/mythtv-xmbc-remote-control-without-lirc  
 https://www.mess.org/2020/01/26/Moving-from-lirc-tools-to-rc-core-tooling/  
-
+https://www.sigmdel.ca/michel/ha/opi/ir_03_en.html  
 
 ## Hardware
 
