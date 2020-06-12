@@ -6,6 +6,8 @@ https://www.raspberrypi.org/documentation/installation/installing-images/README.
 Flash the image:  
 `2020-02-13-raspbian-buster-lite.zip`  
 
+## MacOS
+
 Enable ssh:  
 
 ```
