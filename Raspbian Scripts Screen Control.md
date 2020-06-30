@@ -3,6 +3,7 @@
 Create a script:
 
 ```
+sudo mkdir /opt/scripts/
 sudo vi /opt/scripts/screen-control.sh
 ```
 

@@ -29,7 +29,7 @@ This will disable the raspberry core icons that appear at boot, edit `cmdline.tx
 sudo vi /boot/cmdline.txt
 ```
 
-Append ` logo.nologo` to the end of the line
+Append ` quiet logo.nologo` to the end of the line
 
 
 ## Disable the Rainbow Image
@@ -103,6 +103,30 @@ show_documents=0
 show_trash=0
 show_mounts=0
 ```
+
+
+If there is a second screen:
+
+```
+vi ~/.config/pcmanfm/LXDE-pi/desktop-items-1.conf
+```
+
+```
+[*]
+wallpaper_mode=center
+wallpaper_common=1
+wallpaper=/usr/share/plymouth/themes/pix/splash.png
+desktop_bg=#000000000000
+desktop_fg=#e8e8e8e8e8e8
+desktop_shadow=#000000000000
+desktop_font=PibotoLt 12
+show_wm_menu=0
+sort=mtime;ascending;
+show_documents=0
+show_trash=0
+show_mounts=0
+```
+
 
 
 
