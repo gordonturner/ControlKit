@@ -48,7 +48,7 @@ https://www.sparkfun.com/products/10266
 https://www.adafruit.com/product/157  
 
 Consider buying 7 pin housing to make it easier to connect all the wires at once:   
-https://www.creatroninc.com/product/7-pin-jr-f-connector-set/  
+https://creatroninc.com/products/7-pin-dupont-f-connector-set  
 
 
 # Infrared Remote Hardware Circuit Transmitter
